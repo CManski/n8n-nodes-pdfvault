@@ -1,0 +1,22 @@
+{
+  "node": "n8n-nodes-pdfvault.pdfVault",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": ["Productivity", "Data & Storage"],
+  "resources": {
+    "credentialDocumentation": [
+      {
+        "url": "https://pdfvault.app/docs/api"
+      }
+    ],
+    "primaryDocumentation": [
+      {
+        "url": "https://pdfvault.app/docs/n8n"
+      }
+    ]
+  },
+  "alias": ["pdf", "document", "merge", "split", "compress", "watermark", "qr", "ai", "template"],
+  "subcategories": {
+    "Productivity": ["Document Processing"]
+  }
+}
