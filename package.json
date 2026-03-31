@@ -34,7 +34,7 @@
   },
   "main": "dist/nodes/PdfVault/PdfVault.node.js",
   "scripts": {
-    "build": "tsc && cp nodes/PdfVault/pdfvault.svg dist/nodes/PdfVault/ && cp nodes/PdfVault/PdfVault.node.json dist/nodes/PdfVault/",
+    "build": "node node_modules/typescript/lib/tsc.js && cp nodes/PdfVault/pdfvault.svg dist/nodes/PdfVault/ && cp nodes/PdfVault/PdfVault.node.json dist/nodes/PdfVault/",
     "dev": "tsc --watch",
     "lint": "tsc --noEmit",
     "test": "jest",
